@@ -82,10 +82,10 @@ export default function Navbar() {
                     <a className="dropdown-item" href="/portforlio1">
                       การดำเนินการเปลี่ยนแปลงองค์การภาครัฐในยุคดิจิทัล
                     </a>
-                    <a className="dropdown-item" href="portfolio-4-col.html">
+                    <a className="dropdown-item" href="/portfolio2">
                       การแทรกแซงและการจัดกิจกรรมพัฒนาองค์การภาครัฐ
                     </a>
-                    <a className="dropdown-item" href="portfolio-item.html">
+                    <a className="dropdown-item" href="assets/evaluaction.pptx">
                       การประเมินและปรับปรุงองค์การภาครัฐ
                     </a>
                   </div>
@@ -108,12 +108,12 @@ export default function Navbar() {
                     <a className="dropdown-item" href="/ai">
                       AI ตรวจวินิจฉัยโรคมะเร็งปอด
                     </a>
-                    <a className="dropdown-item" href="blog-home-2.html">
+                    {/* <a className="dropdown-item" href="blog-home-2.html">
                       Blog Home 2
                     </a>
                     <a className="dropdown-item" href="blog-post.html">
                       Blog Post
-                    </a>
+                    </a> */}
                   </div>
                 </li>
                 <li className="nav-item dropdown">
@@ -131,19 +131,19 @@ export default function Navbar() {
                     className="dropdown-menu dropdown-menu-right"
                     aria-labelledby="navbarDropdownBlog"
                   >
-                    <a className="dropdown-item" href="faq.html">
-                      FAQ
+                    <a className="dropdown-item" href="/lifelongleaming">
+                      การเรียนรู้ตลอดชีวิต
                     </a>
-                    <a className="dropdown-item" href="404.html">
+                    {/* <a className="dropdown-item" href="404.html">
                       404
                     </a>
                     <a className="dropdown-item" href="pricing.html">
                       Pricing Table
-                    </a>
+                    </a> */}
                   </div>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="contact.html">
+                  <a className="nav-link" href="/contact">
                     ติดต่อ
                   </a>
                 </li>
